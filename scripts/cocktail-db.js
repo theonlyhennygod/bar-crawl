@@ -6,7 +6,7 @@ class CocktailAPI {
         this.apiKey = apiKey
     }
 
-    getCocktails() {
+    gethero() {
         
     }
 

@@ -1,5 +1,9 @@
 .navigation {
   background-color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1.25rem;
 }
 .navigation__list {
   text-decoration: none;
@@ -8,25 +12,48 @@
   text-decoration: none;
 }
 
-.cocktails {
+.hero {
   background-color: purple;
 }
-.cocktails__container {
-  display: flex;
-  justify-self: center;
+.hero__header {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: white;
 }
-.cocktails__card {
+.hero__title {
+  color: white;
+}
+.hero__container {
+  width: 100%;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+.hero__card {
+  padding: 20px;
   background-color: purple;
   max-width: 18.75rem;
   border: 0.0625rem solid #ccc;
-}
-
-.cards__button {
-  display: flex;
-  justify-content: center;
   border-radius: 0.25rem;
 }
+.hero__text {
+  color: white;
+}
 
-.footer {
+.cards {
   background-color: purple;
+}
+.cards__header {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  color: white;
+}
+.cards__button {
+  width: 80%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 0.25rem;
 }/*# sourceMappingURL=styles.css.map */

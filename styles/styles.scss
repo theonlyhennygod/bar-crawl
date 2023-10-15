@@ -1,80 +1,89 @@
-@use '/styles/partials/global' as *;
-@use '/styles/partials/mixins' as *;
-@use '/styles/partials/typography' as *;
-@use '/styles/partials/variables' as *;
 
-.header {
+// Header Section 
 
-}
+// Navigation Section
 
 .navigation {
 
     background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.25rem;
+    
 
     &__list {
-        text-decoration: none;
+
         
+        text-decoration: none;
     }
 
     &__item {
+
         text-decoration: none;
     
     }
 }
 
-.cocktails {
+// Hero Section
+
+.hero {
+
     background-color: purple;
 
     &__header {
-
+        padding-left: 1rem;
+        padding-top: 1rem;
+        color: white;
     }
 
+    &__title {
+        color: white;
+    }
+    
     &__container {
+        width: 100%;
+        padding: 1.25rem;
 
         display: flex;
-        justify-self: center;
-
+        justify-content: center;
     }
 
     &__card {
-        display: flex;
-        justify-content: center;
+        padding: 20px;
         background-color: purple;
         max-width: 18.75rem;
         border: .0625rem solid #ccc;
+        border-radius: .25rem;
     }
+
+    &__text {
+        color: white;
+    }
+
 }
 
+// Cards Section
 
 .cards {
 
+    background-color: purple;
+
     &__header {
-
-
-    }
-
-    &__selector {
-
-
+        padding-left: 1rem;
+        padding-top: 1rem;
+        color: white;
     }
 
     &__button {
 
+        width: 80%;
+        height: 25%;
         display: flex;
-        width: 100%;
         justify-content: center;
-        background-color: $black;
-
+        background-color: black;
+        color: white;
         border-radius: .25rem;
 
-        &--change {
-
-
-        }
     }
-}
-
-.footer {
-
-    background-color: purple;
 }
