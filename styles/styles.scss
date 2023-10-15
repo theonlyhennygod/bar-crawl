@@ -19,6 +19,10 @@
         gap: 1.25rem;
     }
 
+    &__item {
+        background-color: blue;
+    }
+
     a {
         color: white;
         text-decoration: none;
@@ -50,17 +54,57 @@
     }
 
     &__card {
-        padding: 20px;
         background-color: rgb(173, 37, 71);
-        max-width: 18.75rem;
+        flex: 0 0 auto;
+        width: 100%;
         border: .0625rem solid #ccc;
         border-radius: .25rem;
+        padding: 20px;
+        transition: transform 0.3s ease-in-out;
     }
 
     &__text {
         color: white;
     }
 
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        &-left {
+
+            width: 80%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            border-radius: .25rem;
+
+        }
+
+        &-right {
+
+            width: 80%;
+            height: 25%;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            border-radius: .25rem;
+
+        }
+    }
+}
+
+// Button 
+
+.button__container {
+
+    display: flex;
+    justify-content: center;
 }
 
 // Cards Section
