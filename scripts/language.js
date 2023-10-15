@@ -24,9 +24,9 @@ function changeLanguage() {
             break;
     }
 
-    const languageDisplay = document.getElementById("languageDisplay")
+    const languageDisplay = document.getElementsByClassName("cards__button")
     languageDisplay.textContent = 'Language: $(languages[currentLanguage]}';
 }
 
-const languageButton = document.getElementById("languageButton");
+const languageButton = document.getElementsByClassName("cards__button");
 languageButton.addEventListener("click", changeLanguage);

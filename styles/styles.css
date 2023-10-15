@@ -1,8 +1,19 @@
 .navigation {
   background-color: purple;
 }
+.navigation__list {
+  text-decoration: none;
+}
+.navigation__item {
+  text-decoration: none;
+}
+
 .cocktails {
   background-color: purple;
+}
+.cocktails__container {
+  display: flex;
+  justify-self: center;
 }
 .cocktails__card {
   background-color: purple;
@@ -14,4 +25,8 @@
   display: flex;
   justify-content: center;
   border-radius: 0.25rem;
+}
+
+.footer {
+  background-color: purple;
 }/*# sourceMappingURL=styles.css.map */
