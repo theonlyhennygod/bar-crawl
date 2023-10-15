@@ -1,4 +1,17 @@
+.navigation {
+  background-color: purple;
+}
+.cocktails {
+  background-color: purple;
+}
 .cocktails__card {
+  background-color: purple;
   max-width: 18.75rem;
   border: 0.0625rem solid #ccc;
+}
+
+.cards__button {
+  display: flex;
+  justify-content: center;
+  border-radius: 0.25rem;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,25 @@
+
+
+.header {
+
+}
+
+.navigation {
+
+    background-color: purple;
+
+    &__list {
+
+    }
+
+    &__item {
+
+    
+    }
+}
+
 .cocktails {
+    background-color: purple;
 
     &__header {
 
@@ -10,7 +31,30 @@
     }
 
     &__card {
+        background-color: purple;
         max-width: 18.75rem;
         border: .0625rem solid #ccc;
+    }
+}
+
+
+.cards {
+
+    &__header {
+
+
+    }
+
+    &__selector {
+
+
+    }
+
+    &__button {
+
+        display: flex;
+        justify-content: center;
+
+        border-radius: .25rem;
     }
 }

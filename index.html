@@ -7,7 +7,8 @@
     <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script defer src="/scripts/cocktail-db.js"></script>
     <script defer src="/scripts/index.js"></script>
-    <link rel="stylesheet" href="/index.css">
+    <script defer src="/scripts/language.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
     
 </head>
 <body>
@@ -24,11 +25,11 @@
     <main>
 
         <section class="cocktails">
-            <h1 class="cocktails__header">Cocktails</h1>
+            <h1 class="cocktails__header">Bar Crawl</h1>
             <div class="cocktails__container">
                 <div class="cocktails__card">
                     <img src="" alt="">
-                    <h2 class="cocktails__title">Random Cocktail</h2>
+                    <h2 class="cocktails__title">Who doesn't love a cocktail</h2>
                     <p class="cocktails__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
@@ -38,17 +39,29 @@
 
             <h1 class="cards__header">Pick a Drink</h1>
 
-            <div class="cards__selection">
+                <div class="cards__selection">
 
+                    <!-- 3 cards with a nice hover effect -->
 
-            </div>
-
+                </div>
+                
+                <div class="cards__button">
+                    <button id="languageButton" class="cards__button-change">Switch Drinks</button>
+                </div>
+                
         </section>
 
     </main>
 
     <footer class="footer">
 
+        <h2>Reach Out</h2>
+
+        <div class="footer__container">
+            <p class="footer__text">If you have any recommendations, please reach out</p>
+            <a href="mailto:theonlyhennygod@gmail.com">Send an email</a>
+            <p class="footer__text">or please make a <a href="https://github.com/theonlyhennygod">Github</a> Issue</p>
+        </div>
 
 
     </footer>
