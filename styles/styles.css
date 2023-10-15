@@ -1,14 +1,18 @@
 .navigation {
   background-color: purple;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   padding: 1.25rem;
 }
 .navigation__list {
-  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  gap: 1.25rem;
 }
-.navigation__item {
+.navigation a {
+  color: white;
   text-decoration: none;
 }
 
@@ -24,14 +28,15 @@
   color: white;
 }
 .hero__container {
-  width: 100%;
-  padding: 1.25rem;
   display: flex;
-  justify-content: center;
+  overflow: hidden;
+  width: 18.75rem;
+  padding: 1.25rem;
+  margin: 0 auto;
 }
 .hero__card {
   padding: 20px;
-  background-color: purple;
+  background-color: rgb(173, 37, 71);
   max-width: 18.75rem;
   border: 0.0625rem solid #ccc;
   border-radius: 0.25rem;
